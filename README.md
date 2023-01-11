@@ -7,7 +7,7 @@
 
 | 번호 | 문제 출처 | 풀이 |
 | --- | ------- | --- |
-| 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [2차원으로 만들기.js](https://github.com/codeisneverodd/programmers-coding-test/blob/main/level-0/2차원으로-만들기&120842&.js) |
+| 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [17번.java](https://github.com/null2p/leetcode/blob/main/topinterview/17.java) |
 
 
 ### 커밋 컨벤션
