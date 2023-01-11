@@ -10,7 +10,6 @@
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [2차원으로 만들기.js](https://github.com/codeisneverodd/programmers-coding-test/blob/main/level-0/2차원으로-만들기&120842&.js) |
 
 
-## 🙏🏻 아직 풀리지 않은 문제의 해답을 추가해 주세요!
 ### 커밋 컨벤션
 
 | 접두어   | 작업 내용                           |
