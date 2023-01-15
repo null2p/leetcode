@@ -10,7 +10,8 @@
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [17번.java](https://github.com/null2p/leetcode/blob/main/topinterview/17.java) |
 |20| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) |[20번.java](https://github.com/null2p/leetcode/blob/main/topinterview/20.java)|
 |22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) |[22번.java](https://github.com/null2p/leetcode/blob/main/topinterview/22.java)|
-|34| [Generate Parentheses](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |[34번.java](https://github.com/null2p/leetcode/blob/main/topinterview/34.java)|
+|23| [머지K](https://leetcode.com/problems/merge-k-sorted-lists/) |[23번.java](https://github.com/null2p/leetcode/blob/main/topinterview/23.java)|
+|34| [정렬된 array에서 처음과 마지막 element 찾기](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |[34번.java](https://github.com/null2p/leetcode/blob/main/topinterview/34.java)|
 
 
 ### 커밋 컨벤션
