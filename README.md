@@ -14,6 +14,7 @@
 |33| [돌아가버린 정렬 어레이에서 찾기](https://leetcode.com/problems/search-in-rotated-sorted-array/) |[33번.java](https://github.com/null2p/leetcode/blob/main/topinterview/33.java)|
 |34| [정렬된 array에서 처음과 마지막 element 찾기](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |[34번.java](https://github.com/null2p/leetcode/blob/main/topinterview/34.java)|
 |36| [유효한 스도쿠](https://leetcode.com/problems/valid-sudoku/) |[36번.java](https://github.com/null2p/leetcode/blob/main/topinterview/36.java)|
+|38| [숫자 세고 말하기](https://leetcode.com/problems/count-and-say/) |[38번.java](https://github.com/null2p/leetcode/blob/main/topinterview/38.java)|
 
 
 ### 커밋 컨벤션
