@@ -19,7 +19,7 @@
 |50| [Pow(x,n)](https://leetcode.com/problems/powx-n/) |[50번.java](https://github.com/null2p/leetcode/blob/main/topinterview/50.java)|
 |54| [나선 행렬](https://leetcode.com/problems/spiral-matrix) |[54번.java](https://github.com/null2p/leetcode/blob/main/topinterview/54.java)|
 |55| [점프 게임](https://leetcode.com/problems/jump-game) |[55번.java](https://github.com/null2p/leetcode/blob/main/topinterview/55.java)|
-|56| [구간 합치기](https://leetcode.com/problems/merge-intervals) |[56번.java](https://github.com/null2p/leetcode/blob/main/topinterview/56.java)|
+|56| [구간 합치기 (개선 필요) ](https://leetcode.com/problems/merge-intervals) |[56번.java](https://github.com/null2p/leetcode/blob/main/topinterview/56.java)|
 |73| [매트릭스 0 만들기](https://leetcode.com/problems/set-matrix-zeroes/) |[73번.java](https://github.com/null2p/leetcode/blob/main/topinterview/73.java)|
 |78| [서브셋](https://leetcode.com/problems/subsets/) |[78번.java](https://github.com/null2p/leetcode/blob/main/topinterview/78.java)|
 
