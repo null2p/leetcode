@@ -16,6 +16,7 @@
 |36| [유효한 스도쿠](https://leetcode.com/problems/valid-sudoku/) |[36번.java](https://github.com/null2p/leetcode/blob/main/topinterview/36.java)|
 |38| [숫자 세고 말하기](https://leetcode.com/problems/count-and-say/) |[38번.java](https://github.com/null2p/leetcode/blob/main/topinterview/38.java)|
 |46| [퍼뮤테이션](https://leetcode.com/problems/permutations/) |[46번.java](https://github.com/null2p/leetcode/blob/main/topinterview/46.java)|
+|48| [이미지 돌리기](https://leetcode.com/problems/rotate-image/) |[48번.java](https://github.com/null2p/leetcode/blob/main/topinterview/48.java)|
 |50| [Pow(x,n)](https://leetcode.com/problems/powx-n/) |[50번.java](https://github.com/null2p/leetcode/blob/main/topinterview/50.java)|
 |54| [나선 행렬](https://leetcode.com/problems/spiral-matrix) |[54번.java](https://github.com/null2p/leetcode/blob/main/topinterview/54.java)|
 |55| [점프 게임](https://leetcode.com/problems/jump-game) |[55번.java](https://github.com/null2p/leetcode/blob/main/topinterview/55.java)|
