@@ -20,7 +20,8 @@ class Solution {
         for(int i = 0; i < board.length ; i++){
             for(int j = 0 ; j < board[0].length; j++){
                 if(board[i][j] == word.charAt(0)){
-                    boolean[][] visited = new boolean[board.length][board[0].length];
+                    boolean[][] visited = new boolean[board.length+1][board[0].length+1];
+                    visited[i][j] = true;
                     if(findWord(i,j,board,1,word,visited)){
                         return true;
                     }
@@ -36,78 +37,40 @@ class Solution {
 
     private boolean findWord(int i, int j, char[][] board, int charIdx, String word, boolean[][] visited){
 
+        if(i<0 || j<0 || i==board.length||j==board[0].length){
+            return false;
+        }
         if(charIdx == word.length()){
             return true;
         }
-    
-        visited[i][j] = true;
 
-        if(board.length>1){
-            if(i==0){ //down
-                if(word.charAt(charIdx)==board[i+1][j]){
-                    if(visited[i+1][j]==false){
-                        // System.out.println("down");
-                        return findWord(i+1,j,board,charIdx+1,word,visited);
-                    }
-                }
-            }
-            else if(i==board.length-1){ //up
-                if(word.charAt(charIdx)==board[i-1][j]){
-                    if(visited[i-1][j]==false){
-                        // System.out.println("up");
-                        return findWord(i-1,j,board,charIdx+1,word,visited);
-                    }
-                }
-            }
-            else{ //up and down
-                if(word.charAt(charIdx)==board[i+1][j]){
-                    if(visited[i+1][j]==false){
-                        // System.out.println("down");
-                        return findWord(i+1,j,board,charIdx+1,word,visited);
-                    }
-                }
-                if(word.charAt(charIdx)==board[i-1][j]){
-                    if(visited[i-1][j]==false){
-                        // System.out.println("up");
-                        return findWord(i-1,j,board,charIdx+1,word,visited);
-                    }
-                }
-            }
+        if (findWord(i+1,j,board,charIdx+1,word,visited)){
+            return true;
+        }
+        else {
+            visited[i+1][j] = true;
         }
 
-        if(board[0].length>1){
-            if(j==0){ //right
-                if(word.charAt(charIdx)==board[i][j+1]){
-                    // System.out.println("right");
-                    if(visited[i][j+1]==false){
-                        return findWord(i,j+1,board,charIdx+1,word,visited);
-                    }
-                }
-            }
-            else if(j==board[0].length-1){ //left
-                if(word.charAt(charIdx)==board[i][j-1]){
-                    // System.out.println("left");
-                    if(visited[i][j-1]==false){
-                        return findWord(i,j-1,board,charIdx+1,word,visited);
-                    }
-                }
-            }
-            else{ //right and left
-                if(word.charAt(charIdx)==board[i][j+1]){
-                    // System.out.println("right");
-                    if(visited[i][j+1]==false){
-                       return findWord(i,j+1,board,charIdx+1,word,visited);
-                    }
-                }
-                if(word.charAt(charIdx)==board[i][j-1]){
-                    if(visited[i][j-1]==false){
-                        // System.out.println("left");
-                        return findWord(i,j-1,board,charIdx+1,word,visited);
-                    }
-                }
-            }
+        if (findWord(i-1,j,board,charIdx+1,word,visited)){
+            return true;
+        }
+        else if(i > 0){
+            visited[i-1][j] = true;
         }
 
+        if (findWord(i,j+1,board,charIdx+1,word,visited)){
+            return true;
+        }
+        else {
+            visited[i][j+1] = true;
+        }
+
+        if (findWord(i,j-1,board,charIdx+1,word,visited)){
+            return true;
+        }
+        else if(j>0){
+            visited[i][j-1] = true;
+        }
         // System.out.println("NOPE");
         return false;
     }
