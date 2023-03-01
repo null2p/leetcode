@@ -76,7 +76,8 @@ class Solution {
         else if(j>0){
             // visited[i][j-1] = true;
         }
-        // System.out.println("NOPE");
+        visited[i][j] = false;
+        // System.out.println("END");
         return false;
     }
 }
