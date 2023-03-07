@@ -29,6 +29,7 @@
 |78| [서브셋](https://leetcode.com/problems/subsets/) |[78번.java](https://github.com/null2p/leetcode/blob/main/topinterview/78.java)|
 |79| [단어 찾기](https://leetcode.com/problems/word-search/) |[79번.java](https://github.com/null2p/leetcode/blob/main/topinterview/79.java)|
 |102| [이진 트리 계층 순회](https://leetcode.com/problems/binary-tree-level-order-traversal/) |[102번.java](https://github.com/null2p/leetcode/blob/main/topinterview/102.java)|
+|122| [주식 가즈아2](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) |[122번.java](https://github.com/null2p/leetcode/blob/main/topinterview/122.java)|
 
 
 ### 커밋 컨벤션
